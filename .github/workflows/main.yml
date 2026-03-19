@@ -1,9 +1,9 @@
-name: Thử nghiệm đọc file README    #Tên quy trình
+name: Thử nghiệm đọc file README    
 
 on:
   push:
-    branches: ("main)     #Khởi chạy có code mới đẩy lên nhánh main
-
+    branches: ["main"]
+    
 jobs:
   thuc_hanh_doc_file:
     runs-on: ubuntu-latest
